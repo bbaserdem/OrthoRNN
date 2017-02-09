@@ -1,4 +1,9 @@
 # OrthoRNN
-An orthonormal RNN
+An orthonormal RNN. To be studied.
 
-The idea is to retain lenght of inputs constant so that memory doesn't decay.
+The main idea is; the first hidden layer is a large dimensional, linear layer with recurrency specifically being an orthogonal matrix. Things to research;
+
+-Convergence (with stable orthogonal layer)
+-Orthogonal layer learning & faster teaching methods.
+-Dimensionality dependence
+-Decay through the orthogonal layer?
